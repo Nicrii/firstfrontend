@@ -46,7 +46,102 @@
 	   <a class="breadcrumps-link" href="#">Каталог</a>
 	   <a class="breadcrumps-link" href="#">Сливочное</a>
     </div>
-      <h1>Сливочное мороженое</h1>
+    <h1>Сливочное мороженое</h1>
+	<div class="filters">
+	  <div class="filters-sort">
+	    <p>Сортировка</p>
+		<select >
+		  <option value="popular">по популярности</option>
+		</select>
+	  </div>
+	  <div class="filters-price">
+	    <p>Цена: 100 руб. - 500 руб.</p>
+		<input type="range" min="0" max="100" step="1" value="50"> 
+	  </div>
+	  <div class="filters-fat">
+	    <p>Жирность</p>
+		<input type="radio" name="fat" value="0"> 0% 
+		<input type="radio" name="fat" value="10"> до 10% 
+		<input type="radio" name="fat" value="30"> выше 30% 
+	  </div>
+	  <div class="filters-ingredients">
+	    <p>Наполнители</p>
+		<input type="checkbox" name="option1" value="a1">шоколадные
+		<input type="checkbox" name="option2" value="a2">сахарные присыпки
+		<input type="checkbox" name="option3" value="a3">фрукты
+		<input type="checkbox" name="option4" value="a4">сиропы
+		<input type="checkbox" name="option3" value="a3">джемы
+		<button class="btn filters-ingredients" type="submit">Применить</button>
+	  </div>
+	</div>
+	<div class="products">
+	 <ul>
+	    <li>
+		    <p class="products-price"><b class="price">310Р</b>/кг</p>
+		    <a class="products-name" href="#">Сливочные с апельсиновым джемом 
+											  и цитрусовой стружкой</a>
+		</li>
+		<li>
+		  <p class="products-price"><b class="price">380Р</b>/кг</p>
+		  <a class="products-name" href="#">Сливочно-кофейное с 
+											кусочками шоколада</a>
+		</li>
+		<li>
+		 <p class="products-price"><b class="price">355Р</b>/кг</p>
+		  <a class="products-name" href="#">Сливочно-клубничное с присыпкой из
+											белого шоколада</a>
+		</li> 
+		<li>
+		  <p class="products-price"><b class="price">415Р</b>/кг</p>
+		  <a class="products-name" href="#">Сливочное крем-брюле с карамельной
+											подличкой</a>
+		</li> 
+		<li>
+		    <p class="products-price"><b class="price">325Р</b>/кг</p>
+		    <a class="products-name" href="#">Сливочные с  брусничным джемом </a>
+		</li>
+		<li>
+		  <p class="products-price"><b class="price">410Р</b>/кг</p>
+		  <a class="products-name" href="#">Сливочно-черничное с цельными 
+		                                    ягодами черники</a>
+		</li>
+		<li>
+		 <p class="products-price"><b class="price">375Р</b>/кг</p>
+		  <a class="products-name" href="#">Сливочно-лимонное с карамельной
+											присыпкой</a>
+		</li> 
+		<li>
+		  <p class="products-price"><b class="price">320Р</b>/кг</p>
+		  <a class="products-name" href="#">Сливочное с шоколадной стружкой</a>
+		</li> 
+		<li>
+		    <p class="products-price"><b class="price">440Р</b>/кг</p>
+		    <a class="products-name" href="#">Сливочные ванильное с кусочками
+											  шоколада</a>
+		</li>
+		<li>
+		  <p class="products-price"><b class="price">435Р</b>/кг</p>
+		  <a class="products-name" href="#">Сливочно с ментоловым сиропом</a>
+		</li>
+		<li>
+		 <p class="products-price"><b class="price">355Р</b>/кг</p>
+		  <a class="products-name" href="#">Сливочно с кусочками черного
+											шоколада</a>
+		</li> 
+		<li>
+		  <p class="products-price"><b class="price">420Р</b>/кг</p>
+		  <a class="products-name" href="#">Сливочное с мятным сиропом</a>
+		</li> 
+	<div>
+	<div class="pages">
+	  <a class="pages-number" href="#"><</a>
+	  <a class="pages-number" href="#">1</a>
+	  <a class="pages-number" href="#">2</a>
+	  <a class="pages-number" href="#">3</a>
+	  <a class="pages-number" href="#">4</a>
+	  <a class="pages-number" href="#">5</a>
+	  <a class="pages-number" href="#">></a>
+	</div>
   </main>
   <footer class="main-footer">
     <div class="footer-social">
