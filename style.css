@@ -9,9 +9,9 @@ body {
 }
 .container {
     display: flex;
-    /* width: 1130px; */
-    background-color: #2bb8e208;
-    /* min-height: 76px; */
+    width: 1146px;
+    background-color: #2bb8e21f;
+    /* min-height: 5px; */
     padding-left: 27px;
     padding-right: 27px;
     justify-self: center;
@@ -47,7 +47,7 @@ body {
 
 }
 .slider{
-    height: 574px;
+    height: 579px;
     background-color: #312e2e78;
 }
 .promo{
@@ -99,12 +99,33 @@ body {
 .address{
     background-color: #ed143d7a;
     height: 429px;
+    justify-content: center;
+    display: flex;
 }
-.address-contacts{}
+.address-contacts{
+    background-color: #0000005e;
+    height: inherit;
+    width: 1200px;
+}
 .footer{
     background-color: rgba(208, 16, 171, 0.68);
-    height: 200px;
+    /* height: 104px; */
+    display: grid;
 }
-.footer-social{}
-.footer-info{}
-.footer-maketby{}
+.footer-social{
+    background-color: #fff8dc5c;
+    width: 187px;
+    min-height: 104px;
+    margin-right: 207px;
+}
+.footer-info{
+    background-color: #fff8dc5c;
+    width: 337px;
+    min-height: 104px;
+    margin-right: 220px;
+}
+.footer-maketby{
+    background-color: #fff8dc5c;
+    width: 194px;
+    min-height: 104px;
+}
