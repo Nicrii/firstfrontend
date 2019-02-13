@@ -1,0 +1,110 @@
+html,
+body {
+    min-width: 1200px;
+    min-height: 2416px;
+    margin: 0;
+    padding: 0;
+    background:  #000000 url(gllacy-index-1200.jpg) no-repeat 50% 3px;
+    /* display: grid; */
+}
+.container {
+    display: flex;
+    /* width: 1130px; */
+    background-color: #2bb8e208;
+    /* min-height: 76px; */
+    padding-left: 27px;
+    padding-right: 27px;
+    justify-self: center;
+}
+.header {
+    min-height: 70px;
+    /* border-radius: 0.5em; */
+    display: flex;
+    background-color: rgba(208, 16, 171, 0.68);
+    justify-content: center;
+    /* margin-bottom: 60px; */
+}
+.logo{
+    background-color: rgba(208, 204, 64, 0.5);
+    width: 160px;
+}
+.navigation{
+    width: 400px;
+    background-color: rgba(119, 208, 97, 0.28);
+    margin-right: 285px;
+}
+.user-block{
+    background-color: rgba(51, 179, 208, 0.49);
+    width: 300px;
+    /* align-items: end; */
+}
+.contacts{
+    background-color: rgba(208, 102, 160, 0.68);
+}
+.container.content {
+    display: grid;
+    margin: auto;
+
+}
+.slider{
+    height: 574px;
+    background-color: #312e2e78;
+}
+.promo{
+    height: 229px;
+    background-color: #ffebcd6b;
+    margin-bottom: 40px;
+    display: flex;
+    justify-self: center;
+}
+.promo-left{background-color: #ff000066;height: inherit;width: 561px;margin-right: 24px;border-radius: 15.5px;}
+.promo-right{
+    background-color: #ff000066;
+    height: inherit;
+    width: 561px;
+    /* margin-right: 24px; */
+    border-radius: 15.5px;
+}
+.products{
+    background-color: #04171396;
+    height: 325px;
+    margin-bottom: 37px;
+}
+.about{
+    background-color: #00000073;
+    height: 307px;
+    margin-bottom: 39px;
+}
+.more{
+    background-color: #4a4a404a;
+    height: 221px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-self: center;
+}
+.more-blog{
+    background-color: #ff000066;
+    height: inherit;
+    width: 561px;
+    margin-right: 24px;
+    border-radius: 15.5px;
+}
+.more-subscr{
+    background-color: #ff000066;
+    height: inherit;
+    width: 561px;
+    /* margin-right: 40px; */
+    border-radius: 15.5px;
+}
+.address{
+    background-color: #ed143d7a;
+    height: 429px;
+}
+.address-contacts{}
+.footer{
+    background-color: rgba(208, 16, 171, 0.68);
+    height: 200px;
+}
+.footer-social{}
+.footer-info{}
+.footer-maketby{}
